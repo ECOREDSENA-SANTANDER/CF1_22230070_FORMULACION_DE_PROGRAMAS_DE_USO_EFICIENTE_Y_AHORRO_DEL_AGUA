@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Explorando la gestión eficiente del recurso hídrico.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar el nivel de apropiación de los fundamentos relacionados con la Gestión técnica de la línea base y riesgos en sistemas de agua.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,477 +30,706 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el propósito principal de elaborar una línea base en un sistema de uso del agua?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Establecer únicamente el costo del servicio de agua.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Conocer las condiciones actuales del sistema para orientar acciones de uso eficiente y ahorro del agua.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Determinar exclusivamente la calidad del agua para consumo humano.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'Identificar únicamente los usuarios que presentan mayores consumos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué información permite caracterizar la demanda de agua de un sistema?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Únicamente la ubicación geográfica de la fuente.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+                'Los consumos, usuarios, usos del agua y variaciones de la demanda.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Exclusivamente las condiciones climáticas de la zona.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Solamente las características físicas de las tuberías.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
+        },
+        {
+          id: 3,
+          texto: '¿Qué se entiende por punto de captación de agua?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'El lugar donde se almacena el agua después de su utilización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'El sitio donde se realiza la medición del consumo de los usuarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'El lugar o estructura mediante el cual se extrae el agua de una fuente para su aprovechamiento.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'El punto donde se descargan las aguas residuales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál de los siguientes elementos es fundamental para caracterizar un punto de captación?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
+              texto:
+                'La fuente de la cual se obtiene el recurso y las condiciones de la infraestructura de captación.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'El número de empleados de la organización.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto: 'El valor comercial de los productos elaborados.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'El horario de atención al público.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué es una fuente de abastecimiento de agua?',
+          imagen: '@/assets/actividad/imagen05.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+                'El sistema utilizado exclusivamente para transportar aguas residuales.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'El cuerpo de agua o sistema del cual se obtiene el recurso para satisfacer diferentes necesidades.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'El mecanismo empleado para medir el consumo individual.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'El lugar destinado únicamente al almacenamiento temporal.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
         },
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál de las siguientes puede constituir una fuente de abastecimiento de agua?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'Un río.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Una planta de producción.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Una red eléctrica.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Un sistema de ventilación.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Por qué es importante caracterizar la fuente de abastecimiento dentro de la línea base?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto:
+                'Porque permite conocer aspectos relacionados con la disponibilidad, comportamiento y calidad del recurso.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto:
+                'Porque permite eliminar la necesidad de realizar mediciones de consumo.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Porque determina exclusivamente el precio del agua.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Porque reemplaza el análisis de riesgos del sistema.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Una organización registra el consumo mensual de agua durante un año. ¿Qué utilidad tiene esta información?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Permite identificar comportamientos, variaciones y tendencias en el consumo.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Permite determinar únicamente la calidad microbiológica del agua.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Permite eliminar los procesos de mantenimiento.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Permite establecer exclusivamente la capacidad de almacenamiento.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué relación existe entre la oferta y la demanda hídrica?',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'La oferta corresponde al agua disponible y la demanda al volumen requerido o utilizado para satisfacer diferentes necesidades.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Ambas representan exclusivamente el volumen de aguas residuales generado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La oferta corresponde al consumo y la demanda a la calidad del agua.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Ambas corresponden únicamente a las características de la infraestructura.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Para qué puede utilizarse un balance hídrico dentro de un sistema de uso del agua?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Para comparar las entradas y salidas de agua e identificar posibles pérdidas o diferencias.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Para determinar únicamente el tipo de fuente de abastecimiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Para reemplazar los registros de consumo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Para establecer exclusivamente las condiciones climáticas.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál de las siguientes situaciones puede indicar una pérdida de agua en un sistema?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'El volumen captado es significativamente superior al volumen registrado como utilizado, sin una explicación técnica.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Todos los consumos registrados coinciden con los usos identificados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Se realizan actividades periódicas de mantenimiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Se cuenta con instrumentos adecuados de medición.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Qué función cumplen los indicadores de eficiencia en la gestión del agua?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Permiten evaluar el comportamiento del consumo y determinar el desempeño del sistema frente al uso eficiente del recurso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Permiten identificar únicamente los costos de mantenimiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Permiten reemplazar las fuentes de abastecimiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Permiten eliminar la necesidad de establecer metas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
+        },
+        {
+          id: 13,
+          texto:
+            'En la gestión del riesgo de un sistema de agua, ¿qué se entiende por amenaza?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'La condición o fenómeno que tiene el potencial de generar afectaciones sobre el sistema.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'La capacidad económica de los usuarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El volumen de agua utilizado diariamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La cantidad de infraestructura disponible.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué concepto describe las condiciones que hacen que un sistema sea susceptible a sufrir daños ante una amenaza?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Oferta hídrica.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Vulnerabilidad.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Demanda hídrica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eficiencia.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            'Una tubería deteriorada, un tanque sin protección y una captación expuesta son ejemplos de:',
+          imagen: '@/assets/actividad/imagen05.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Indicadores de demanda.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Vulnerabilidades asociadas a la infraestructura del sistema.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Fuentes de abastecimiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Elementos de oferta hídrica.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué son los elementos expuestos dentro del análisis de riesgos?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Los componentes, personas, infraestructura, actividades o recursos que pueden resultar afectados por una amenaza.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Únicamente las fuentes naturales de agua.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Solamente los equipos utilizados para medir el consumo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Los recursos económicos destinados al mantenimiento.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál situación representa un escenario de riesgo para un sistema de abastecimiento de agua?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Una captación ubicada en una zona susceptible a inundaciones y con infraestructura vulnerable.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Un sistema que cuenta con mantenimiento periódico y equipos en buen estado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Un registro actualizado de los consumos mensuales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Una fuente con condiciones adecuadas de disponibilidad y calidad.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál es la finalidad de una matriz de evaluación de riesgos aplicada a un sistema de agua?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Identificar y valorar amenazas, vulnerabilidades y posibles consecuencias para establecer medidas de intervención.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Registrar únicamente el consumo mensual de los usuarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Determinar exclusivamente el costo de las obras de infraestructura.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Clasificar las fuentes de agua según su ubicación geográfica.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
+        },
+        {
+          id: 19,
+          texto:
+            'Ante la identificación de una amenaza que puede afectar la continuidad del abastecimiento, ¿cuál sería una acción adecuada?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ignorarla mientras no se presente una emergencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Establecer medidas de prevención y mitigación de acuerdo con el nivel de riesgo identificado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Suspender permanentemente el uso de la fuente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar los registros relacionados con el sistema.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cómo contribuye la gestión de la línea base y los riesgos a la formulación de un PUEAA?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Proporciona información técnica para establecer objetivos, metas, indicadores y acciones orientadas al uso eficiente y ahorro del agua.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Permite formular el programa únicamente con información sobre costos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reemplaza la necesidad de identificar los usuarios y sus consumos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Se limita a describir las características físicas de la fuente de abastecimiento.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia conocimiento de los conceptos relacionados a la Gestión técnica de la línea base y riesgos en sistemas de agua.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Gestión técnica de la línea base y riesgos en sistemas de agua.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre la Gestión técnica de la línea base y riesgos en sistemas de agua.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }

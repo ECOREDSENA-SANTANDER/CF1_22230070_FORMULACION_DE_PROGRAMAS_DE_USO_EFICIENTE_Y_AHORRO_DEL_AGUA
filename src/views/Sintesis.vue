@@ -2,13 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. 
-    
+    p La gestión técnica  de la línea base y los riesgos en los sistemas de agua permite conocer, analizar y mejorar las condiciones relacionadas con el uso y aprovechamiento del recurso hídrico. Para ello, se parte de la línea base de demanda de agua, que permite identificar las cantidades de recurso requeridas según las actividades desarrolladas, y se caracterizan el punto de captación y la fuente de abastecimiento, considerando sus condiciones, disponibilidad y posibles afectaciones. Asimismo, la gestión del riesgo en el sistema de uso de agua facilita identificar amenazas y vulnerabilidades que pueden comprometer su disponibilidad, calidad o funcionamiento. Finalmente, la matriz de evaluación del riesgo permite valorar y priorizar estos factores para establecer medidas de prevención, control y seguimiento orientadas al uso eficiente, seguro y sostenible del agua.
 
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre la gestión técnica del agua, que aborda la demanda, captación, abastecimiento y evaluación de riesgos del sistema.Incluye la identificación de amenazas y vulnerabilidades para establecer medidas de prevención, control y uso eficiente del recurso.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
