@@ -536,11 +536,503 @@
                   i.fas.fa-angle-right2
                   | Estudios ambientales de proyectos ubicados en la cuenca.
 
+      .row.justify-content-center.align-items-center.mb-3
+        .col-lg-8.mb-3 
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Tabla 2. 
+            span Información básica para la caracterización de una fuente de abastecimiento
+
+          .tabla-a.color-acento-contenido
+            table
+              thead
+                tr
+                  th.w-25.bg3.izq Información
+                  th.w-50.bg3.izq Descripción
+                  th.bg3.izq Fuente de consulta
+              tbody
+                tr
+                  td #[b Nombre de la fuente]
+                  td Identificación oficial.
+                  td Autoridad ambiental.
+                tr
+                  td #[b Tipo de fuente]
+                  td Superficial, subterránea, lluvia o reúso.
+                  td PUEAA, estudios.
+                tr
+                  td #[b Localización]
+                  td Coordenadas y municipio.
+                  td SIG, cartografía.
+                tr
+                  td #[b Caudal]
+                  td Promedio, máximo y mínimo.
+                  td IDEAM.
+                tr
+                  td #[b Calidad del agua]
+                  td Parámetros fisicoquímicos y microbiológicos.
+                  td Laboratorios.
+                tr
+                  td #[b Usuarios existentes]
+                  td Aprovechamientos registrados.
+                  td Autoridad ambiental.
+                tr
+                  td #[b Riesgos]
+                  td Sequías, contaminación, inundaciones.
+                  td POMCA.
+        .col-lg-4
+          img(src='@/assets/curso/temas/t1/img15.png', alt='')
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-9
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
+            h3.bg2.py-1.w-card-text Planes de Ordenación y Manejo de Cuencas Hidrográficas (POMCA)
+
+      .row.justify-content-center.align-items-center.mb-0
+        .col-lg-1.mb-3 
+          img(src='@/assets/curso/temas/t1/velas.svg', alt='')
+        .col-lg-11
+          p Los Planes de Ordenación y Manejo de Cuencas Hidrográficas (POMCA) constituyen el principal instrumento de planificación para la gestión integral del recurso hídrico en Colombia. Su propósito es orientar el uso sostenible del territorio, conservar los ecosistemas estratégicos y garantizar la disponibilidad del agua para las generaciones presentes y futuras (MADS, 2014).
+
+      .row.justify-content-center.align-items-center.mb-3
+        .col-lg-6.mb-3 
+          p Durante la formulación de un PUEAA es indispensable verificar si la fuente de abastecimiento se encuentra dentro de una cuenca con POMCA vigente, debido a que estos planes contienen información sobre:
+          .row.justify-content-center
+            .col-lg-4.mb-3
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Oferta hídrica.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Demanda de agua.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Calidad del agua.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Riesgos naturales.
+            .col-lg-8
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Ecosistemas estratégicos.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Zonificación ambiental.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Restricciones para nuevos aprovechamientos.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Programas de recuperación y conservación.
+        .col-lg-6
+          img(src='@/assets/curso/temas/t1/img16.png', alt='')
+
+      p El análisis del POMCA permite identificar oportunidades y limitaciones para el aprovechamiento del recurso hídrico.
+      .row.justify-content-center.align-items-center.mb-3
+        .col-lg-8.bg7.p-4
+          p.mb-0 #[b Ejemplo:] una empresa ubicada en el departamento de Antioquia obtiene agua del río Medellín. Durante la formulación del PUEAA, debe verificar si el tramo correspondiente está regulado por un POMCA y revisar las medidas de manejo establecidas para dicho tramo. 
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
+            h3.bg2.py-1.w-card-text Prestador del servicio de agua
+      p Cuando el abastecimiento no proviene directamente de una fuente natural, sino del servicio público de acueducto, debe identificarse al prestador responsable del suministro.
+      p La información mínima comprende:
+
+      .row.justify-content-center.align-items-center.mb-2
+        .col-lg-4.mb-3
+          img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t1/img17.png', alt='')
+        .col-lg-5.mb-3
+          ul.lista-ul--color
+            li.d-flex
+              i.fas.fa-angle-right2
+              | Nombre de la empresa prestadora.
+            li.d-flex
+              i.fas.fa-angle-right2
+              | Cobertura del servicio.
+            li.d-flex
+              i.fas.fa-angle-right2
+              | Continuidad.
+            li.d-flex
+              i.fas.fa-angle-right2
+              | Calidad del agua suministrada.
+            li.d-flex
+              i.fas.fa-angle-right2
+              | Volumen consumido.
+            li.d-flex
+              i.fas.fa-angle-right2
+              | Tipo de usuario.
+            li.d-flex
+              i.fas.fa-angle-right2
+              | Facturación histórica.
+            li.d-flex
+              i.fas.fa-angle-right2
+              | Índice de Agua No Contabilizada (IANC), cuando esté disponible.
+        .col-lg-3
+          img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t1/img18.svg', alt='')
+
+      p Entre los principales prestadores en Colombia se encuentran empresas públicas, mixtas y privadas encargadas de captar, tratar y distribuir agua potable conforme al marco regulatorio nacional.
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
+            h3.bg2.py-1.w-card-text Línea base de la oferta de agua
+
+      .row.justify-content-center.mb-0
+        .col-lg-7.mb-3 
+          p La línea base de la oferta de agua corresponde al diagnóstico técnico que describe las condiciones actuales de disponibilidad del recurso hídrico en la fuente de abastecimiento. Su finalidad es establecer un punto de referencia para evaluar la sostenibilidad del aprovechamiento y proyectar las acciones necesarias para garantizar el abastecimiento futuro.
+          .cajon.color-primario.p-4.mb-4
+            p.mb-0 Esta línea base constituye uno de los componentes esenciales del Programa para el Uso Eficiente y Ahorro del Agua, ya que facilita la identificación de riesgos, limitaciones y oportunidades para optimizar el uso del recurso.
+        .col-lg-5
+          img(src='@/assets/curso/temas/t1/img19.png', alt='')
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-4
+          .d-flex.align-items-center.titulo-linea-base
+            img.w-card-icon(src="@/assets/curso/temas/t1/gota.svg")
+            h3.w-card-text Objetivos de la línea base
+
+      .row.d-flex.mb-4
+        .col-sm-6.col-lg-2.mb-4.mb-lg-0
+          .tarjeta--boton.color-secundario.p-2.h-100
+            .row.justify-content-center.mb-3
+              .col-7
+                figure
+                  img(src='@/assets/curso/temas/t1/13.png', alt='')
+            p.text-center Conocer la disponibilidad del recurso hídrico.
+
+        .col-sm-6.col-lg-2.mb-4.mb-lg-0
+          .tarjeta--boton.color-secundario.p-2.h-100
+            .row.justify-content-center.mb-3
+              .col-7
+                figure
+                  img(src='@/assets/curso/temas/t1/14.png', alt='')
+            p.text-center Identificar amenazas sobre la fuente.
+
+        .col-sm-6.col-lg-2.mb-4.mb-lg-0
+          .tarjeta--boton.color-secundario.p-2.h-100
+            .row.justify-content-center.mb-3
+              .col-7
+                figure
+                  img(src='@/assets/curso/temas/t1/15.png', alt='')
+            p.text-center Analizar la variabilidad climática.
+
+        .col-sm-6.col-lg-2.mb-4.mb-lg-0
+          .tarjeta--boton.color-secundario.p-2.h-100
+            .row.justify-content-center.mb-3
+              .col-7
+                figure
+                  img(src='@/assets/curso/temas/t1/16.png', alt='')
+            p.text-center Estimar la capacidad de abastecimiento.
+
+        .col-sm-6.col-lg-2.mb-4.mb-lg-0
+          .tarjeta--boton.color-secundario.p-2.h-100
+            .row.justify-content-center.mb-3
+              .col-7
+                figure
+                  img(src='@/assets/curso/temas/t1/17.png', alt='')
+            p.text-center Evaluar la sostenibilidad del aprovechamiento.
+
+        .col-sm-6.col-lg-2.mb-4.mb-lg-0
+          .tarjeta--boton.color-secundario.p-2.h-100
+            .row.justify-content-center.mb-3
+              .col-7
+                figure
+                  img(src='@/assets/curso/temas/t1/18.png', alt='')
+            p.text-center Servir de referencia para el seguimiento del PUEAA.
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
+            h3.bg2.py-1.w-card-text Información requerida
+      p La recopilación de información debe incluir variables hidrológicas, climáticas, ambientales y administrativas.
+
+      .row.justify-content-center.align-items-center.mb-3
+        .col-lg-7.mb-3 
+          p La recopilación de información debe incluir variables hidrológicas, climáticas, ambientales y administrativas.
+          .row.justify-content-center.align-items-center.bg6.p-2
+            p Entre las principales se encuentran:
+            .col-lg-4.mb-3 
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Caudal medio anual.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Caudal máximo.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Caudal mínimo.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Caudal ecológico.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Régimen de lluvias.
+            .col-lg-4.mb-3 
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Temperatura.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Evapotranspiración.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Balance hídrico.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Calidad del agua.
+            .col-lg-4.mb-3 
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Demanda actual.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Demanda proyectada.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Usuarios registrados.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Concesiones otorgadas.
+        .col-lg-5
+          img(src="@/assets/curso/temas/t1/img20.png")
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
+            h3.bg2.py-1.w-card-text Riesgos asociados a la oferta hídrica
+      p Durante el diagnóstico deben identificarse los factores que puedan afectar la disponibilidad del recurso.
+      p Los riesgos más frecuentes son:
+
+      .fondo04.mb-4.p-4
+        .tarjeta.tarjeta--gris.p-4
+          PasosB.color-acento-botones
+            .row.justify-content-center(titulo="")
+              .col-lg-5
+                img(src='@/assets/curso/temas/t1/img22.png', alt='')
+              .col-lg-6.mb-4.mb-md-0
+                h5 Variabilidad climática
+                p Los fenómenos El Niño y La Niña modifican significativamente los caudales disponibles. Durante eventos de El Niño es común la reducción de la oferta hídrica, mientras que durante La Niña aumentan los caudales y el riesgo de inundaciones.
+
+            .row.justify-content-center(titulo="")
+              .col-lg-5
+                img(src='@/assets/curso/temas/t1/img23.png', alt='')
+              .col-lg-6.mb-4.mb-md-0
+                h5 Cambio climático
+                p El incremento de la temperatura global altera el régimen hidrológico de las cuencas, modifica los patrones de precipitación y aumenta la frecuencia de eventos extremos, lo que afecta la disponibilidad del agua.
+
+            .row.justify-content-center(titulo="")
+              .col-lg-5
+                img(src='@/assets/curso/temas/t1/img24.png', alt='')
+              .col-lg-6.mb-4.mb-md-0
+                h5 Contaminación
+                p Las descargas domésticas, industriales, agrícolas y mineras deterioran la calidad del agua y reducen el volumen disponible para diversos usos.
+
+            .row.justify-content-center(titulo="")
+              .col-lg-5
+                img(src='@/assets/curso/temas/t1/img25.png', alt='')
+              .col-lg-6.mb-4.mb-md-0
+                h5 Sobreexplotación
+                p La extracción por encima de la capacidad de recarga de una fuente superficial o subterránea ocasiona la disminución de caudales, el descenso de los niveles freáticos y conflictos por el uso del recurso.
+
+            .row.justify-content-center(titulo="")
+              .col-lg-5
+                img(src='@/assets/curso/temas/t1/img26.png', alt='')
+              .col-lg-6.mb-4.mb-md-0
+                h5 Deforestación
+                p La pérdida de cobertura vegetal disminuye la infiltración, incrementa la erosión y altera el comportamiento hidrológico de las cuencas.
+
+            .row.justify-content-center(titulo="")
+              .col-lg-5
+                img(src='@/assets/curso/temas/t1/img27.png', alt='')
+              .col-lg-6.mb-4.mb-md-0
+                h5 Caudales estimados
+                p El conocimiento del comportamiento de los caudales constituye uno de los principales insumos para determinar la disponibilidad del recurso.     
+          
+      p Los caudales generalmente se expresan como:
+
+      .row.justify-content-center.mb-3
+        .col-lg
+          .d-flex.align-items-center.bg5.p-2
+            img(src='@/assets/curso/temas/t1/001.png', alt='')
+            h5.mb-0.ms-2 Caudal medio.
+
+        .col-lg
+          .d-flex.align-items-center.bg5.p-2
+            img(src='@/assets/curso/temas/t1/001.png', alt='')
+            h5.mb-0.ms-2 Caudal máximo.
+
+        .col-lg
+          .d-flex.align-items-center.bg5.p-2
+            img(src='@/assets/curso/temas/t1/001.png', alt='')
+            h5.mb-0.ms-2 Caudal mínimo.
+
+        .col-lg
+          .d-flex.align-items-center.bg5.p-2
+            img(src='@/assets/curso/temas/t1/001.png', alt='')
+            h5.mb-0.ms-2 Caudal ecológico.
+
+        .col-lg
+          .d-flex.align-items-center.bg5.p-2
+            img(src='@/assets/curso/temas/t1/001.png', alt='')
+            h5.mb-0.ms-2 Caudal concesionado.
+
+      p Estos valores permiten determinar si la demanda actual y futura puede ser atendida sin comprometer la sostenibilidad de la fuente.
 
 
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
+            h3.bg2.py-1.w-card-text Estudios y proyecciones de la fuente de abastecimiento
 
+      .row.justify-content-center.mb-3
+        .col-lg-9.mb-3 
+          p p La información técnica utilizada para caracterizar la oferta puede provenir de:
+          .row.justify-content-center
+            .col-lg-5.mb-3
+              ol.lista-ol--cuadro.lista-ol--cuadro--separador
+                .lista-ol--cuadro__vineta
+                  span a
+                | Estudios hidrológicos.
+              ol.lista-ol--cuadro.lista-ol--cuadro--separador
+                .lista-ol--cuadro__vineta
+                  span b
+                | Estudios hidrogeológicos.
+              ol.lista-ol--cuadro.lista-ol--cuadro--separador
+                .lista-ol--cuadro__vineta
+                  span c
+                | Modelos de simulación hidrológica.
+              ol.lista-ol--cuadro.lista-ol--cuadro--separador
+                .lista-ol--cuadro__vineta
+                  span d
+                | Estudios de cambio climático.
+            .col-lg-7.mb-3
+              ol.lista-ol--cuadro.lista-ol--cuadro--separador.d-flex
+                .lista-ol--cuadro__vineta
+                  span e
+                | Estudios de oferta y demanda hídrica.
+              ol.lista-ol--cuadro.lista-ol--cuadro--separador.d-flex
+                .lista-ol--cuadro__vineta
+                  span f
+                | Estudios nacionales del agua.
+              ol.lista-ol--cuadro.lista-ol--cuadro--separador.d-flex
+                .lista-ol--cuadro__vineta
+                  span g
+                | Información del Sistema de Información del Recurso Hídrico (SIRH).
+              ol.lista-ol--cuadro.lista-ol--cuadro--separador
+                .lista-ol--cuadro__vineta
+                  span h
+                | Información hidrometeorológica del IDEAM.
+            p p La consulta de estas fuentes permite construir escenarios prospectivos que apoyen la toma de decisiones y la planificación eficiente del uso del agua.
+        .col-lg-3
+          img(src='@/assets/curso/temas/t1/img28.png', alt='')
+      
+      .bloque-texto-g.bg3.p-3.p-sm-4.p-md-5.mb-4
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require_src('@/assets/curso/temas/t1/img29.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 #[b Ejemplo:] una empresa agroindustrial capta agua de una quebrada con un caudal promedio de 120 L/s y un caudal mínimo de estiaje de 45  L/s. Durante los últimos cinco años se ha observado una disminución progresiva de los caudales, asociada a períodos prolongados de sequía y a cambios en el uso del suelo de la cuenca. Con esta información, la organización puede identificar un riesgo potencial de desabastecimiento y priorizar medidas como la reducción de pérdidas, el almacenamiento estratégico, el reúso de aguas tratadas y la implementación de tecnologías de ahorro.
 
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
+            h3.bg2.py-1.w-card-text Concepto de sistema de uso de agua
 
+      .row.justify-content-center.mb-0
+        .col-lg-7.mb-3 
+          p Un sistema de uso de agua corresponde al conjunto de procesos, equipos, infraestructura y actividades mediante los cuales el recurso hídrico se captura, conduce, almacena, distribuye, utiliza y, finalmente, descarga o reutiliza dentro de una organización, instalación o proceso productivo.
+          p Desde la perspectiva de la gestión ambiental, el sistema debe analizarse como un proceso integrado, en el que cada componente influye en la eficiencia en el uso del agua, el consumo energético, la generación de aguas residuales y los costos operativos.
+          .cajon.color-primario.p-4.mb-4
+            p.mb-0 El conocimiento detallado del sistema permite identificar oportunidades para reducir pérdidas, optimizar los consumos e implementar tecnologías de ahorro, objetivos centrales del Programa para el Uso Eficiente y Ahorro del Agua (PUEAA) (Ministerio de Ambiente y Desarrollo Sostenible [MADS], 2018).
+        .col-lg-5.p-0
+         img(src='@/assets/curso/temas/t1/img30.png', alt='') 
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-5
+          .d-flex.align-items-center.titulo-linea-base
+            img.w-card-icon(src="@/assets/curso/temas/t1/gota.svg")
+            h3.w-card-text Objetivos de caracterizar el sistema
+
+      .row.justify-content-center.align-items-center.mb-3
+        .col-lg-3.p-0
+          img(src='@/assets/curso/temas/t1/img31.png', alt='')
+        .col-lg-9
+          p La caracterización del sistema de uso de agua tiene como finalidad:
+          .row.justify-content-center.align-items-center
+            .col-lg-7.mb-3 
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Comprender el funcionamiento del sistema de abastecimiento.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Identificar dónde se consume el agua.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Detectar pérdidas.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Establecer balances hídricos.
+            .col-lg-5
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Determinar indicadores de eficiencia.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Priorizar medidas de ahorro.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Identificar oportunidades de reúso.
+                li.d-flex
+                  i.fas.fa-angle-right2
+                  | Facilitar la formulación del PUEAA.
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-5
+          .d-flex.align-items-center.titulo-linea-base
+            img.w-card-icon(src="@/assets/curso/temas/t1/gota.svg")
+            h3.w-card-text Componentes del sistema
+      p Todo sistema de uso de agua está conformado por varios elementos que interactúan entre sí.
+
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-12
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 2.
+            span   Componentes  del sistema de uso de agua 
+          img(src='@/assets/curso/temas/t1/fig2.svg', alt='Presenta las etapas y elementos de un sistema para captar, almacenar, distribuir, utilizar y tratar el agua. Se identifican ocho componentes: fuente de abastecimiento, punto de captación, conducción, almacenamiento, red de distribución, usuarios y procesos, tratamiento, y descarga o reúso. También se muestran las entradas del sistema, como agua captada, energía e insumos químicos, y las salidas, como agua consumida, agua residual, pérdidas y agua reutilizada. ')
+      
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-5
+          .d-flex.align-items-center.titulo-linea-base
+            img.w-card-icon(src="@/assets/curso/temas/t1/gota.svg")
+            h3.w-card-text Tipos de sistemas de uso de agua
+
+      .row.justify-content-center.align-items-center.mb-2
+        .col-lg-5.mb-3.p-0
+          img(src="@/assets/curso/temas/t1/img32.png")
+        .col-lg-7
+          p Los sistemas de uso de agua corresponden al conjunto organizado de infraestructuras, equipos, procesos y actividades mediante los cuales una organización capta, conduce, almacena, distribuye, utiliza, reutiliza y dispone del recurso hídrico para satisfacer sus necesidades operativas, productivas o de servicios. Cada sistema presenta características particulares según el origen del agua, la actividad desarrollada, la calidad requerida, el volumen consumido y las condiciones ambientales del entorno (Ministerio de Ambiente y Desarrollo Sostenible – MADS, 2018).
+          p La identificación del tipo de sistema constituye una etapa esencial en la formulación del Programa para el Uso Eficiente y Ahorro del Agua (PUEAA), ya que permite comprender el comportamiento de la demanda, identificar oportunidades de optimización y seleccionar tecnologías apropiadas para mejorar la eficiencia hídrica (Congreso de Colombia, 1997).
+      p Desde la perspectiva de la Gestión Integral del Recurso Hídrico (GIRH), el conocimiento del sistema de uso facilita la integración entre la oferta, la demanda, la conservación de las fuentes y la sostenibilidad ambiental (MADS, 2010).
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-6
+          .d-flex.align-items-center.titulo-linea-base
+            img.w-card-icon(src="@/assets/curso/temas/t1/gota.svg")
+            h3.w-card-text Clasificación de los sistemas de uso de agua
+      p Los sistemas de uso del agua pueden clasificarse según la actividad económica, la fuente de abastecimiento, el nivel tecnológico, el tipo de infraestructura y la forma en que el recurso circula dentro de la organización.
 
 
 
