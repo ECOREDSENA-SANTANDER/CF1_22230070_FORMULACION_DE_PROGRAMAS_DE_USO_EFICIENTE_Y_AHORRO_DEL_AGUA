@@ -133,6 +133,10 @@ figcaption
    
 .img
   width: 55% !important
+  @media screen and (max-width: $bp-min-sm)
+    width: 35% !important
+  @media (min-width: 768px) and (max-width: 1024px)
+    width: 35% !important
 .bg1
   background-color: #E5ECF8
 .bg2
@@ -193,6 +197,7 @@ figcaption
     background-size: cover 
   @media screen and (max-width: 767px)
     background-size: cover 
+    padding: 1rem !important
 .fondo04
   background-image: url('../assets/curso/temas/t1/img21.png')
   background-position: center
@@ -205,6 +210,7 @@ figcaption
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem  
     background-size: cover 
+    padding: 1rem !important
 .fa-chevron-right 
   --fa: "\f054"
   color: #FB9776
@@ -276,3 +282,21 @@ figcaption
   font-size: 16px
   line-height: 1.2
   color: #000
+
+colores custom Acordeon 
+.acordion__accion__btn--a 
+  background-color: #FB9776 !important
+.acordion .tarjeta--azul
+  background-color: #68C882 !important
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #F1FBFF !important
+
+
+.tarjeta.color-primario 
+  background-color: #F1FBFF !important
+.tarjeta.color-primario * 
+  color: #12263F
+.tarjeta-slide__img 
+  background-size: 100% 100% !important
+  background-position: center !important
+  background-repeat: no-repeat !important
