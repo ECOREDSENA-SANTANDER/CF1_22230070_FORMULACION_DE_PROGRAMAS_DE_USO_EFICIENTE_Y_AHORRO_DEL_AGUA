@@ -311,44 +311,44 @@
 
       .fondo02.mb-4.p-4(data-aos="fade-left")
         .row.justify-content-center.align-items-center.mb-0
-          .col-lg-4.mb-3.col-md-7
+          .col-lg-4.mb-3.col-md-6
             img(src='@/assets/curso/temas/t1/img07.png', alt='')
           .col-lg-8
             p La concesión de aguas permite identificar y controlar aspectos fundamentales del aprovechamiento del recurso, entre ellos:
             SlyderF(columnas="col-lg-6 col-xl-4")
               .tarjeta.bg6.p-3
                 .row.justify-content-center.mb-3
-                  .col-8.col-md-4
+                  .col-8.col-md-4.col-lg-7
                     img(src='@/assets/curso/temas/t1/7.png' alt='')
                 p.mb-0 #[b Fuente abastecedora:] cuerpo de agua del cual se realiza la captación. 
 
               .tarjeta.bg6.p-3
                 .row.justify-content-center.mb-3
-                  .col-8.col-md-4
+                  .col-8.col-md-4.col-lg-7
                     img(src='@/assets/curso/temas/t1/8.png' alt='')
                 p.mb-0 #[b Caudal autorizado:] cantidad máxima de agua que puede ser captada, expresada de acuerdo con la unidad establecida en el acto administrativo. 
               
               .tarjeta.bg6.p-3
                 .row.justify-content-center.mb-3
-                  .col-8.col-md-4
+                  .col-8.col-md-4.col-lg-7
                     img(src='@/assets/curso/temas/t1/9.png' alt='')
                 p.mb-0 #[b Uso autorizado:] finalidad para la cual se permite el aprovechamiento del recurso, como consumo humano, uso doméstico, agrícola, pecuario o industrial, según corresponda. 
 
               .tarjeta.bg6.p-3
                 .row.justify-content-center.mb-3
-                  .col-8.col-md-4
+                  .col-8.col-md-4.col-lg-7
                     img(src='@/assets/curso/temas/t1/10.png' alt='')
                 p.mb-0 #[b Vigencia:] periodo durante el cual se encuentra autorizado el aprovechamiento. 
               
               .tarjeta.bg6.p-3
                 .row.justify-content-center.mb-3
-                  .col-8.col-md-4
+                  .col-8.col-md-4.col-lg-7
                     img(src='@/assets/curso/temas/t1/11.png' alt='')
                 p.mb-0 #[b Obligaciones ambientales:] compromisos que debe cumplir el titular frente al manejo, conservación y uso adecuado del recurso hídrico. 
               
               .tarjeta.bg6.p-3
                 .row.justify-content-center.mb-3
-                  .col-8.col-md-4
+                  .col-8.col-md-4.col-lg-7
                     img(src='@/assets/curso/temas/t1/12.png' alt='')
                 p.mb-0 #[b Condiciones de seguimiento y control:] requisitos establecidos por la autoridad ambiental para verificar el cumplimiento de las condiciones de la concesión. 
 
@@ -1222,15 +1222,15 @@
       p Además de la actividad desarrollada, los sistemas pueden clasificarse según la forma en que el agua circula dentro de la organización.
 
       .row.mb-3(data-aos="fade-left")
-        .col-md-5.col-xl-4.mb-4.mb-xl-0
+        .col-md-6.col-xl-4.mb-4.mb-xl-0.h-100
           .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido.p-2.p-xl-5
+              .tarjeta-slide__contenido.p-4.p-xl-5
                 p #[b Sistema abierto:] el agua ingresa al proceso, se utiliza una sola vez y luego se descarga como agua residual. Presenta un elevado consumo de agua y una mayor generación de vertimientos.
               .tarjeta-slide__img(:style="{'background-image': `url(${require_src('@/assets/curso/temas/t1/sly1.png')})`}")
 
-        .col-md-5.col-xl-4.mb-4.mb-xl-0
+        .col-md-6.col-xl-4.mb-4.mb-xl-0.h-100
           .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
@@ -1238,11 +1238,11 @@
                 p #[b Sistema cerrado:] el agua circula continuamente dentro del proceso mediante recirculación. Este tipo de sistema reduce significativamente la demanda de agua fresca y la generación de aguas residuales. Es ampliamente utilizado en torres de enfriamiento, procesos industriales y sistemas de climatización.
               .tarjeta-slide__img(:style="{'background-image': `url(${require_src('@/assets/curso/temas/t1/sly2.png')})`}")
         
-        .col-md-5.col-xl-4.mb-4.mb-xl-0
+        .col-md-6.col-xl-4.mb-4.mb-xl-0.h-100
           .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido.p-2.p-xl-5
+              .tarjeta-slide__contenido.p-3.p-xl-5
                 p #[b Sistema semicerrado:] combina procesos de consumo directo con procesos de recirculación parcial. Representa una alternativa intermedia entre los sistemas abiertos y cerrados y ofrece un buen equilibrio entre eficiencia y costos de implementación.
               .tarjeta-slide__img(:style="{'background-image': `url(${require_src('@/assets/curso/temas/t1/sly3.png')})`}")    
 
@@ -1294,11 +1294,372 @@
             img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
             h3.bg2.py-1.w-card-text Usuarios del agua
 
-      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-        .col-lg-5.mb-3 
+      .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
+        .col-lg-5.mb-3.col-10
           img(src='@/assets/curso/temas/t1/img34.png', alt='')
         .col-lg-7
           p El agua es un recurso fundamental para el desarrollo de las actividades humanas, productivas, comerciales, institucionales y agropecuarias. Su demanda varía según las necesidades de cada usuario, las características de las actividades realizadas y las condiciones del sistema de abastecimiento. Por esta razón, identificar y caracterizar a los usuarios del agua permite conocer cómo, dónde y para qué se utiliza el recurso, facilitando la identificación de consumos significativos, pérdidas y oportunidades para implementar medidas de uso eficiente y ahorro del agua.
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-6
+          .d-flex.align-items-center.titulo-linea-base
+            img.w-card-icon(src="@/assets/curso/temas/t1/gota.svg")
+            h3.w-card-text Clasificación de los usuarios del agua
+      
+      .row.justify-content-center.mb-3
+        .col-lg-7.mb-3 
+          .cajon.color-secundario.p-4.mb-3
+            p.mb-0 Un usuario del agua es toda persona natural o jurídica que utiliza el recurso hídrico para satisfacer necesidades domésticas, productivas, comerciales, institucionales o de prestación de servicios, de acuerdo con las condiciones y autorizaciones establecidas en la normativa aplicable.
+          p La identificación y clasificación de los usuarios permite conocer quiénes utilizan el recurso, para qué actividades y en qué cantidad, información fundamental para establecer medidas de uso eficiente y ahorro del agua.
+        .col-lg-5.p-0.col-10.col-md-8
+          img(src='@/assets/curso/temas/t1/img35.png', alt='')
+
+      .row.justify-content-center.mb-3(data-aos="zoom-in-left")
+        .col-lg-4.mb-3 
+          img.d-none.d-lg-block(src='@/assets/curso/temas/t1/img36.png', alt='')
+        .col-lg-8
+          p Los principales tipos de usuarios son:
+          AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul2")
+            .row(titulo="Usuarios residenciales")
+              .col-md-12.mb-4.mb-md-0
+                p Corresponden a viviendas ubicadas en zonas urbanas o rurales, donde el agua se utiliza principalmente para actividades como consumo humano, preparación de alimentos, higiene personal, lavado y limpieza.
+            .row(titulo="Usuarios institucionales")
+              .col-md-12.mb-4.mb-md-0
+                p Comprenden entidades públicas, instituciones educativas, centros de salud, organizaciones privadas y otras instancias que utilizan agua para el desarrollo de sus actividades administrativas, operativas y de atención.
+
+            .row(titulo="Usuarios industriales")
+              .col-md-12.mb-4.mb-md-0
+                p Corresponden a empresas manufactureras y de transformación que emplean agua en procesos productivos, lavado de equipos, generación de vapor, sistemas de enfriamiento, limpieza y otras actividades relacionadas con la producción.
+
+            .row(titulo="Usuarios agropecuarios")
+              .col-md-12.mb-4.mb-md-0
+                p Incluyen productores agrícolas, pecuarios y acuícolas que utilizan el agua para riego de cultivos, abastecimiento de animales, limpieza de instalaciones y desarrollo de actividades acuícolas.
+
+            .row(titulo="Usuarios comerciales")
+              .col-md-12.mb-4.mb-md-0
+                p Corresponden a establecimientos y empresas dedicados a la prestación de bienes y servicios, como restaurantes, hoteles, lavanderías, supermercados, talleres y otros establecimientos que requieren agua para sus actividades.
+
+            .row(titulo="Empresas prestadoras de servicios públicos")
+              .col-md-12.mb-4.mb-md-0
+                p Son las organizaciones responsables de actividades relacionadas con la captación, tratamiento, almacenamiento y distribución de agua potable, de acuerdo con el servicio que presten y la normativa aplicable.
+
+      p Se invita al aprendiz a explorar el #[em podcast] Estimación del consumo de agua por usuario, donde conocerá aspectos clave para determinar el consumo y promover el uso eficiente del recurso hídrico.
+
+      img(src='@/assets/curso/temas/t1/podcast.png', alt='')(data-aos="zoom-in-left")
+      .row.justify-content-center.g-0(data-aos="fade-right").mb-4
+        .col-lg-12
+          .tarjeta.clr--pink.p-3.rounded-0.h-100.bg8
+            .tarjeta.bg-white.p-4
+              TarjetaAudio.color-acento-botones.mb-4.p-3(
+              texto="Pódcast. Marca y emprendimiento: identidad que diferencia"
+              :audio="require_src('@/assets/curso/temas/t1/podcast.png')"
+          )
+              .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              p.mb-0 Mamá, ¿puedes venir conmigo al consultorio del doctor?
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-9
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
+            h3.bg2.py-1.w-card-text Estimación del consumo de agua por usuario
+
+      p El consumo de agua corresponde al volumen del recurso utilizado por un usuario durante un período determinado. Su estimación permite conocer los niveles de consumo, identificar variaciones, detectar posibles pérdidas y establecer oportunidades de mejora para el uso eficiente y ahorro del agua.
+      
+      p La cantidad de agua utilizada puede determinarse mediante diferentes mecanismos, entre ellos:
+
+      SlyderF(columnas="col-lg-6 col-xl-4").mb-4(data-aos="fade-left")
+        .tarjeta.fondo01.p-3
+          .row.justify-content-center.mb-3
+            .col-7.col-md-5.col-lg-6
+              img(src='@/assets/curso/temas/t1/sly1.svg' alt='')
+          h4.text-center Macromedidores
+          p.text-center Instrumentos que registran el volumen total de agua suministrado a una instalación, establecimiento o sistema. 
+
+        .tarjeta.fondo01.p-3
+          .row.justify-content-center.mb-3
+            .col-7.col-md-5.col-lg-6
+              img(src='@/assets/curso/temas/t1/sly2.svg' alt='')
+          h4.text-center Micromedidores
+          p.text-center Dispositivos que permiten medir el consumo individual de un usuario o punto específico.
+
+        .tarjeta.fondo01.p-3
+          .row.justify-content-center.mb-3
+            .col-7.col-md-5.col-lg-6
+              img(src='@/assets/curso/temas/t1/sly3.svg' alt='')
+          h4.text-center Facturación del servicio
+          p.text-center Información registrada por la empresa prestadora, que permite analizar los consumos históricos.
+
+        .tarjeta.fondo01.p-3
+          .row.justify-content-center.mb-3
+            .col-7.col-md-5.col-lg-6
+              img(src='@/assets/curso/temas/t1/sly4.svg' alt='')
+          h4.text-center Registros operacionales
+          p.text-center Datos recopilados durante el funcionamiento de procesos, equipos o instalaciones que utilizan agua.
+
+        .tarjeta.fondo01.p-3
+          .row.justify-content-center.mb-3
+            .col-7.col-md-5.col-lg-6
+              img(src='@/assets/curso/temas/t1/sly5.svg' alt='')
+          h4.text-center Aforos
+          p.text-center Procedimientos utilizados para determinar el caudal o volumen de agua que circula por una fuente, sistema o punto determinado.
+
+        .tarjeta.fondo01.p-3
+          .row.justify-content-center.mb-3
+            .col-7.col-md-5.col-lg-6
+              img(src='@/assets/curso/temas/t1/sly6.svg' alt='')
+          h4.text-center Estimaciones técnicas
+          p.text-center Cálculos realizados a partir de variables como número de usuarios, frecuencia de uso, tiempo de operación, caudal de los equipos y características de las actividades desarrolladas.
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-9
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
+            h3.bg2.py-1.w-card-text Consumo por actividad o proceso
+
+      p Uno de los principales objetivos del diagnóstico es determinar cuánto consume cada proceso.
+
+      .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
+        .col-lg-6.mb-3 
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Tabla 3.
+            span Ejemplo de caracterización de consumos
+
+          .tabla-a.color-acento-contenido
+            table
+              thead
+                tr
+                  th.bg3.izq Actividad
+                  th.bg3.izq Consumo (m³/mes)
+                  th.bg3.izq Participación (%)
+              tbody
+                tr
+                  td #[b Producción]
+                  td 1.500
+                  td 50
+                tr
+                  td #[b Lavado de equipos]
+                  td 450
+                  td 15
+                tr
+                  td #[b Servicios sanitarios]
+                  td 300
+                  td 10
+                tr
+                  td #[b Oficinas]
+                  td 180
+                  td 6
+                tr
+                  td #[b Cafetería]
+                  td 120
+                  td 4
+                tr
+                  td #[b Riego]
+                  td 240
+                  td 8
+                tr
+                  td #[b Limpieza]
+                  td 210
+                  td 7
+                tr.bg9
+                  td #[b Total]
+                  td 3.000
+                  td 100
+        .col-lg-6.col-10.col-md-8
+          img(src='@/assets/curso/temas/t1/img37.png', alt='')
+
+      p La tabla evidencia que el proceso de producción representa el mayor consumo y, por tanto, constituye la principal oportunidad para implementar medidas de ahorro.
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-9
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
+            h3.bg2.py-1.w-card-text Metodologías para estimar el consumo
+
+      p.mb-4 Cuando no se dispone de una medición directa, el consumo puede estimarse mediante diversas metodologías.
+
+      .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
+        .col-lg-7.mb-3 
+          ol.lista-ol--cuadro.lista-ol--cuadro--separador
+            .lista-ol--cuadro__vineta
+              span a
+            | #[b Medición directa:] se realiza mediante medidores instalados en los puntos de consumo.
+          ol.lista-ol--cuadro.lista-ol--cuadro--separador
+            .lista-ol--cuadro__vineta
+              span b
+            | Es el método recomendado por su mayor precisión.
+          ol.lista-ol--cuadro.lista-ol--cuadro--separador
+            .lista-ol--cuadro__vineta
+              span c
+            | #[b Balance hídrico:] permite estimar los consumos a partir de las entradas y salidas del sistema.
+          ol.lista-ol--cuadro.lista-ol--cuadro--separador
+            .lista-ol--cuadro__vineta
+              span d
+            | #[b Facturación del servicio:] se emplean los registros históricos del prestador del servicio.
+          ol.lista-ol--cuadro.lista-ol--cuadro--separador
+            .lista-ol--cuadro__vineta
+              span e
+            | #[b Estimaciones técnicas:] cuando no existen mediciones, pueden utilizarse factores de consumo obtenidos de la literatura técnica o de estudios sectoriales.
+        .col-lg-5.col-10.col-md-9
+          img(src='@/assets/curso/temas/t1/img38.png', alt='')
+
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-9
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
+            h3.bg2.py-1.w-card-text Indicadores de consumo
+      p Los indicadores permiten evaluar la eficiencia en el uso del agua. 
+      .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
+        .col-lg-12
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 3. 
+            span Fórmulas de los indicadores de consumo
+          img(src='@/assets/curso/temas/t1/fig3.svg', alt='Se presentan las formulas de los indicadores de consumo como: (consumo por trabajador, consumo por visitante, consumo por unidad producida, consumo por hectárea, índice de reúso).')
+
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-9
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
+            h3.bg2.py-1.w-card-text Elaboración de la matriz de usos y usuarios
+      p Como parte del diagnóstico se recomienda elaborar una matriz que consolide la información de cada usuario.
+
+      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        h5 Tabla 4.
+        span Matriz de usos y usuarios
+
+      .tabla-a.color-acento-contenido.mb-4(data-aos="zoom-in-left")
+        table
+          thead
+            tr
+              th.bg3.izq Usuario
+              th.bg3.izq Actividad
+              th.bg3.izq Fuente
+              th.bg3.izq Consumo (m³/mes)
+              th.bg3.izq Medición
+              th.bg3.izq Medición
+          tbody
+            tr
+              td Producción
+              td Manufactura.
+              td Acueducto.
+              td 1.500
+              td Sí.
+              td Mayor consumo.
+            tr
+              td Oficinas
+              td Administrativo.
+              td Acueducto.
+              td 180
+              td Sí.
+              td Consumo estable.
+            tr
+              td Cafetería
+              td Servicios.
+              td Acueducto.
+              td 120
+              td No.
+              td Estimado.
+            tr
+              td Jardines
+              td Riego.
+              td Acueducto.
+              td 240
+              td No.
+              td Potencial de uso de aguas lluvias.
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-9
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
+            h3.bg2.py-1.w-card-text Oportunidades de ahorro
+
+      .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
+        .row.justify-content-center
+          .col-lg-7.mb-3
+            p Una vez identificados los usos y usuarios, pueden proponerse acciones como:
+            .row.bg1.p-2
+              .col-lg-6
+                ul.lista-ul--color
+                  li.d-flex
+                    i.fas.fa-angle-right2
+                    | Instalación de dispositivos ahorradores.
+                  li.d-flex
+                    i.fas.fa-angle-right2
+                    | Detección y reparación de fugas.
+                  li.d-flex
+                    i.fas.fa-angle-right2
+                    | Sectorización hidráulica.
+                  li.d-flex
+                    i.fas.fa-angle-right2
+                    | Micromedición.
+                  li.d-flex
+                    i.fas.fa-angle-right2
+                    | Reúso de aguas tratadas.
+              .col-lg-6
+                ul.lista-ul--color
+                  li.d-flex
+                    i.fas.fa-angle-right2
+                    | Aprovechamiento de aguas lluvias.
+                  li.d-flex
+                    i.fas.fa-angle-right2
+                    | Automatización de procesos.
+                  li.d-flex
+                    i.fas.fa-angle-right2
+                    | Campañas de sensibilización.
+                  li.d-flex
+                    i.fas.fa-angle-right2
+                    | Mantenimiento preventivo.
+                  li.d-flex
+                    i.fas.fa-angle-right2
+                    | Sustitución de equipos obsoletos.
+          .col-lg-5.col-md-9
+            img(src='@/assets/curso/temas/t1/img39.png', alt='')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
