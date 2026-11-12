@@ -749,7 +749,6 @@
           .d-flex.align-items-center
             img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
             h3.bg2.py-1.w-card-text Información requerida
-      p La recopilación de información debe incluir variables hidrológicas, climáticas, ambientales y administrativas.
 
       .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
         .col-lg-7.mb-3 
@@ -1515,13 +1514,53 @@
             h5 Figura 3. 
             span Fórmulas de los indicadores de consumo
           img(src='@/assets/curso/temas/t1/fig3.svg', alt='Se presentan las formulas de los indicadores de consumo como: (consumo por trabajador, consumo por visitante, consumo por unidad producida, consumo por hectárea, índice de reúso).')
+      
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-9
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
+            h3.bg2.py-1.w-card-text Análisis de la demanda de agua
+      p El análisis de la demanda permite responder preguntas como:
 
+      .row.justify-content-center.mb-3(data-aos="fade-left")
+        .col-lg-4.mb-2
+          .d-flex.align-items-center.bg5.p-2
+            img(src='@/assets/curso/temas/t1/001.svg', alt='')
+            p.mb-0.ms-2 ¿Quién consume el agua?
 
+        .col-lg-4.mb-2
+          .d-flex.align-items-center.bg5.p-2
+            img(src='@/assets/curso/temas/t1/002.svg', alt='')
+            p.mb-0.ms-2 ¿Dónde se consume?
+
+        .col-lg-4.mb-2
+          .d-flex.align-items-center.bg5.p-2
+            img(src='@/assets/curso/temas/t1/003.svg', alt='')
+            p.mb-0.ms-2 ¿Cuánto consume cada proceso?
+        .col-lg-4.mb-2
+          .d-flex.align-items-center.bg5.p-2
+            img(src='@/assets/curso/temas/t1/004.svg', alt='')
+            p.mb-0.ms-2 ¿Qué actividades presentan desperdicios?
+
+        .col-lg-4.mb-2
+          .d-flex.align-items-center.bg5.p-2
+            img(src='@/assets/curso/temas/t1/005.svg', alt='')
+            p.mb-0.ms-2 ¿Qué procesos pueden reutilizar agua?
+        .col-lg-4.mb-2
+          .d-flex.align-items-center.bg5.p-2
+            img(src='@/assets/curso/temas/t1/006.svg', alt='')
+            p.mb-0.ms-2 ¿Cuáles son las oportunidades de ahorro?
+      
+      p Este análisis constituye la base para establecer metas de reducción del consumo.
+      
+      
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-9
           .d-flex.align-items-center
             img.w-card-icon(src="@/assets/curso/temas/t1/icono.svg")
             h3.bg2.py-1.w-card-text Elaboración de la matriz de usos y usuarios
+     
+     
       p Como parte del diagnóstico se recomienda elaborar una matriz que consolide la información de cada usuario.
 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -1537,7 +1576,7 @@
               th.bg3.izq Fuente
               th.bg3.izq Consumo (m³/mes)
               th.bg3.izq Medición
-              th.bg3.izq Medición
+              th.bg3.izq Observaciones
           tbody
             tr
               td Producción
