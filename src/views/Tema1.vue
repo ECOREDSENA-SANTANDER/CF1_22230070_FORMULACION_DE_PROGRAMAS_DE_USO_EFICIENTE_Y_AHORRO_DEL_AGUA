@@ -1351,7 +1351,7 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-botones.mb-4.p-3(
               texto="Pódcast. Marca y emprendimiento: identidad que diferencia"
-              :audio="require_src('@/assets/curso/temas/t1/podcast.png')"
+              :audio="require_src('@/assets/curso/temas/t1/podcast.mp3')"
           )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               p.mb-0 Mamá, ¿puedes venir conmigo al consultorio del doctor?

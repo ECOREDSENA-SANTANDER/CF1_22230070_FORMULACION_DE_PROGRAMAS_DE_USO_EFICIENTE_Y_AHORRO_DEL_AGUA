@@ -11,7 +11,7 @@
     
     p El agua constituye la base y uno de los recursos naturales estratégicos para el desarrollo económico, social y ambiental de cualquier nación. Su disponibilidad y calidad determinan la sostenibilidad de los ecosistemas, la salud pública, la producción agrícola, industrial y energética, así como el bienestar de las comunidades. En Colombia, considerada uno de los países con mayor riqueza hídrica del mundo, la presión sobre el recurso ha aumentado debido al crecimiento poblacional, la expansión de las actividades productivas, la contaminación de las fuentes y los efectos asociados al cambio climático (IDEAM, 2023).
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
       .col-lg-5.mb-3.col-md-8
         img(src='@/assets/curso/temas/intro/img01.png', alt='')
       .col-lg-7
@@ -20,6 +20,10 @@
 
     p(data-aos="fade-left") El presente componente formativo desarrolla los conceptos, procedimientos y herramientas necesarios para elaborar dicha línea base, conforme a la normativa ambiental colombiana y a los principios de la Gestión Integral del Recurso Hídrico (GIRH).
 
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/TV5Txqo_GuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Gestión técnica de la línea base y riesgos en sistemas de agua
 
 
 
