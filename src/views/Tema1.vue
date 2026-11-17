@@ -1350,11 +1350,11 @@
           .tarjeta.clr--pink.p-3.rounded-0.h-100.bg8
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-botones.mb-4.p-3(
-              texto="Pódcast. Marca y emprendimiento: identidad que diferencia"
+              texto="Estimación del consumo de agua por usuario"
               :audio="require_src('@/assets/curso/temas/t1/podcast.mp3')"
           )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-              p.mb-0 Mamá, ¿puedes venir conmigo al consultorio del doctor?
+              p.mb-0 
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-9
