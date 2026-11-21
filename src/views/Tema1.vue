@@ -895,7 +895,7 @@
 
       .row.justify-content-center.mb-3(data-aos="fade-left")
         .col-lg-9.mb-3 
-          p p La información técnica utilizada para caracterizar la oferta puede provenir de:
+          p La información técnica utilizada para caracterizar la oferta puede provenir de:
           .row.justify-content-center
             .col-lg-5.mb-3
               ol.lista-ol--cuadro.lista-ol--cuadro--separador
@@ -1086,21 +1086,19 @@
                 li.d-flex
                   i.fas.fa-angle-right2
                   | Reúso de aguas grises para riego y limpieza.
-        .row(titulo="Sistemas domésticos")
+        .row(titulo="Sistemas institucionales")
           .col-lg-12.mb-4.mb-md-0
             p Se encuentran en hospitales, universidades, colegios, edificios administrativos, aeropuertos y en entidades públicas. Se caracterizan por atender a una población flotante y por presentar consumos variables a lo largo de la jornada laboral. Además del uso doméstico, estos sistemas incluyen consumos asociados a laboratorios, cafeterías, lavanderías, sistemas de climatización, la limpieza de instalaciones y el mantenimiento de zonas verdes. La gestión eficiente en este tipo de instalaciones requiere la sectorización hidráulica, el monitoreo permanente del consumo y programas de sensibilización dirigidos a funcionarios y usuarios.
         .row(titulo="Sistemas industriales")
           .col-lg-12.mb-4.mb-md-0
             p Los sistemas industriales presentan la mayor complejidad debido a la diversidad de procesos productivos y a la cantidad de operaciones que requieren agua como materia prima, insumo, medio de transporte, refrigerante o agente de limpieza. Dependiendo del sector productivo, el agua puede utilizarse para: lavado de materias primas; transporte hidráulico; generación de vapor; torres de enfriamiento; sistemas contra incendios; limpieza de equipos; procesos químicos; formulación de productos. En industrias como alimentos, bebidas, papel, textiles y petroquímica, el consumo específico de agua es uno de los principales indicadores de desempeño ambiental (ISO 46001, 2019).
-
+          
           .col-lg-12(data-aos="fade-left")
             .tarjeta.bg1.p-4.h-100
+              h5 Componentes característicos
               .row
                 .col-lg-6
                   ul.lista-ul--color
-                    li.d-flex
-                      i.fas.fa-angle-right2
-                      | Componentes característicos.
                     li.d-flex
                       i.fas.fa-angle-right2
                       | Captación propia o acueducto.
@@ -1191,16 +1189,16 @@
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-angle-right2
-                | Bebederos automáticos;
+                | Bebederos automáticos.
               li.d-flex
                 i.fas.fa-angle-right2
-                | Control de fugas;
+                | Control de fugas.
               li.d-flex
                 i.fas.fa-angle-right2
-                | Limpieza en seco de corrales;
+                | Limpieza en seco de corrales.
               li.d-flex
                 i.fas.fa-angle-right2
-                | Reutilización de aguas tratadas;
+                | Reutilización de aguas tratadas.
               li.d-flex
                 i.fas.fa-angle-right2
                 | Monitoreo del consumo por unidad productiva.
@@ -1481,22 +1479,18 @@
           ol.lista-ol--cuadro.lista-ol--cuadro--separador
             .lista-ol--cuadro__vineta
               span a
-            | #[b Medición directa:] se realiza mediante medidores instalados en los puntos de consumo.
+            | #[b Medición directa:] se realiza mediante medidores instalados en los puntos de consumo. Es el método recomendado por su mayor precisión.
           ol.lista-ol--cuadro.lista-ol--cuadro--separador
             .lista-ol--cuadro__vineta
               span b
-            | Es el método recomendado por su mayor precisión.
-          ol.lista-ol--cuadro.lista-ol--cuadro--separador
-            .lista-ol--cuadro__vineta
-              span c
             | #[b Balance hídrico:] permite estimar los consumos a partir de las entradas y salidas del sistema.
           ol.lista-ol--cuadro.lista-ol--cuadro--separador
             .lista-ol--cuadro__vineta
-              span d
+              span c
             | #[b Facturación del servicio:] se emplean los registros históricos del prestador del servicio.
           ol.lista-ol--cuadro.lista-ol--cuadro--separador
             .lista-ol--cuadro__vineta
-              span e
+              span d
             | #[b Estimaciones técnicas:] cuando no existen mediciones, pueden utilizarse factores de consumo obtenidos de la literatura técnica o de estudios sectoriales.
         .col-lg-5.col-10.col-md-9
           img(src='@/assets/curso/temas/t1/img38.png', alt='')
