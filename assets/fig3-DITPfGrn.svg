@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1228" height="423" viewBox="0 0 1228 423">
+  <g id="Grupo_1177198" data-name="Grupo 1177198" transform="translate(-185.711 -25334)">
+    <rect id="Rectángulo_454785" data-name="Rectángulo 454785" width="1228" height="423" transform="translate(185.711 25334)" fill="#e5ecf8"/>
+    <g id="Grupo_1177197" data-name="Grupo 1177197" transform="translate(0 -2)">
+      <rect id="Rectángulo_454786" data-name="Rectángulo 454786" width="556" height="99" rx="20" transform="translate(233.711 25384)" fill="#fff"/>
+      <rect id="Rectángulo_454789" data-name="Rectángulo 454789" width="556" height="99" rx="20" transform="translate(809.711 25384)" fill="#fff"/>
+      <rect id="Rectángulo_454787" data-name="Rectángulo 454787" width="556" height="99" rx="20" transform="translate(233.711 25498)" fill="#fff"/>
+      <rect id="Rectángulo_454790" data-name="Rectángulo 454790" width="556" height="99" rx="20" transform="translate(809.711 25498)" fill="#fff"/>
+      <rect id="Rectángulo_454788" data-name="Rectángulo 454788" width="556" height="99" rx="20" transform="translate(233.711 25612)" fill="#fff"/>
+      <g id="Grupo_1177192" data-name="Grupo 1177192" transform="translate(10.711 4.535)">
+        <text id="Consumo_por_trabajador" data-name="Consumo por trabajador" transform="translate(270 25433.465)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.003em"><tspan x="0" y="0">Consumo por trabajador</tspan></text>
+        <text id="Consumo_mensual" data-name="Consumo mensual" transform="translate(556.711 25420.465)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="0" y="0">Consumo mensual</tspan></text>
+        <text id="Número_de_trabajadores" data-name="Número de trabajadores" transform="translate(536.711 25447.965)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="0" y="0">Número de trabajadores</tspan></text>
+        <text id="CT_" data-name="CT = " transform="translate(478 25433.465)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" letter-spacing="0.003em" font-style="italic"><tspan x="0" y="0">CT </tspan><tspan y="0" font-family="Roboto-Regular, Roboto" font-style="normal">= </tspan></text>
+        <line id="Línea_3239" data-name="Línea 3239" x2="216" transform="translate(515.211 25427.5)" fill="none" stroke="#707070" stroke-width="1"/>
+      </g>
+      <g id="Grupo_1177195" data-name="Grupo 1177195" transform="translate(558.211 4.535)">
+        <text id="Consumo_por_hectárea_Utilizado_en_actividades_agrícolas." data-name="Consumo por hectárea
+Utilizado en actividades agrícolas." transform="translate(270 25421.465)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" letter-spacing="0.003em" font-weight="700"><tspan x="0" y="0">Consumo por hectárea</tspan><tspan font-family="Roboto-Regular, Roboto" font-weight="400"><tspan x="0" y="24">Utilizado en actividades agrícolas.</tspan></tspan></text>
+        <text id="Volumen_utilizado" data-name="Volumen utilizado" transform="translate(678 25420.465)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="-64.07" y="0">Volumen utilizado</tspan></text>
+        <text id="Área_cultivada" data-name="Área cultivada" transform="translate(680 25447.965)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="-50.83" y="0">Área cultivada</tspan></text>
+        <text id="CH_" data-name="CH = " transform="translate(535.289 25433.465)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" letter-spacing="0.003em" font-style="italic"><tspan x="0" y="0">CH </tspan><tspan y="0" font-family="Roboto-Regular, Roboto" font-style="normal">= </tspan></text>
+        <line id="Línea_3239-2" data-name="Línea 3239" x2="216" transform="translate(572.5 25427.5)" fill="none" stroke="#707070" stroke-width="1"/>
+      </g>
+      <g id="Grupo_1177193" data-name="Grupo 1177193" transform="translate(10.711 118.535)">
+        <text id="Consumo_por_visitante" data-name="Consumo por visitante" transform="translate(270 25433.465)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.003em"><tspan x="0" y="0">Consumo por visitante</tspan></text>
+        <text id="Consumo_mensual-2" data-name="Consumo mensual" transform="translate(623 25420.465)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="-67.081" y="0">Consumo mensual</tspan></text>
+        <text id="Número_de_visitantes" data-name="Número de visitantes" transform="translate(623 25447.965)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="-75.942" y="0">Número de visitantes</tspan></text>
+        <text id="CV_" data-name="CV = " transform="translate(478 25433.465)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" letter-spacing="0.003em" font-style="italic"><tspan x="0" y="0">CV </tspan><tspan y="0" font-family="Roboto-Regular, Roboto" font-style="normal">= </tspan></text>
+        <line id="Línea_3239-3" data-name="Línea 3239" x2="216" transform="translate(515.5 25427.5)" fill="none" stroke="#707070" stroke-width="1"/>
+      </g>
+      <g id="Grupo_1177196" data-name="Grupo 1177196" transform="translate(594.711 118.535)">
+        <text id="Índice_de_reúso" data-name="Índice de reúso" transform="translate(270 25433.465)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.003em"><tspan x="0" y="0">Índice de reúso</tspan></text>
+        <text id="Volumen_reutilizado" data-name="Volumen reutilizado" transform="translate(556.289 25420.465)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="-70.989" y="0">Volumen reutilizado</tspan></text>
+        <text id="Consumo_total" data-name="Consumo total" transform="translate(556.289 25447.965)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="-52.545" y="0">Consumo total</tspan></text>
+        <text id="IR_" data-name="IR = " transform="translate(411.289 25433.465)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" letter-spacing="0.003em" font-style="italic"><tspan x="0" y="0">IR </tspan><tspan y="0" font-family="Roboto-Regular, Roboto" font-style="normal">= </tspan></text>
+        <text id="x_100" data-name="x 100" transform="translate(676.289 25433.465)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="0" y="0">x 100</tspan></text>
+        <line id="Línea_3239-4" data-name="Línea 3239" x2="216" transform="translate(448.789 25427.5)" fill="none" stroke="#707070" stroke-width="1"/>
+      </g>
+      <g id="Grupo_1177194" data-name="Grupo 1177194" transform="translate(-8.289 232.535)">
+        <text id="Consumo_por_unidad_producida" data-name="Consumo por unidad producida" transform="translate(270 25433.465)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.003em"><tspan x="0" y="0">Consumo por unidad producida</tspan></text>
+        <text id="Consumo_total-2" data-name="Consumo total" transform="translate(662 25420.465)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="-52.545" y="0">Consumo total</tspan></text>
+        <text id="Producción" transform="translate(662 25447.965)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="-40.645" y="0">Producción</tspan></text>
+        <text id="CP_" data-name="CP = " transform="translate(517 25433.465)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" letter-spacing="0.003em" font-style="italic"><tspan x="0" y="0">CP </tspan><tspan y="0" font-family="Roboto-Regular, Roboto" font-style="normal">= </tspan></text>
+        <line id="Línea_3239-5" data-name="Línea 3239" x2="216" transform="translate(554.5 25427.5)" fill="none" stroke="#707070" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
