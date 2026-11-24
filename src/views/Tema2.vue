@@ -39,7 +39,8 @@
       .col-lg-5.mb-3.col-md-9
         img(src="@/assets/curso/temas/t2/img03.png")
       .col-lg-7
-        p Las amenazas pueden clasificarse según su origen. Amenazas naturales: son aquellas originadas por procesos propios de la naturaleza. Entre las más frecuentes se encuentran:
+        p Las amenazas pueden clasificarse según su origen. 
+        p #[b Amenazas naturales:] son aquellas originadas por procesos propios de la naturaleza. Entre las más frecuentes se encuentran:
         .row
           .col-lg-6
             ul.lista-ul--color
